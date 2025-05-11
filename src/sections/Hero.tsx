@@ -86,10 +86,16 @@ export const HeroSection = () => {
 						<span className="font-semibold">Explore My Work</span>
 						<ArrowDown className="size-4" />
 					</button>
-					<button className="inline-flex gap-2 items-center border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
+
+					<a
+						href="https://www.linkedin.com/in/arfinhasib/"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="inline-flex gap-2 items-center border border-white bg-white text-gray-900 h-12 px-6 rounded-xl"
+					>
 						<span>👋</span>
 						<span className="font-semibold">Let's Connect</span>
-					</button>
+					</a>
 				</div>
 			</div>
 		</div>
